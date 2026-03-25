@@ -1,0 +1,100 @@
+/* 管理端 - 沉稳风格 */
+body.admin-theme {
+  background: #1a2634;
+  color: #e8eef2;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body.admin-theme .navbar {
+  background: #0f1a24;
+  border-bottom: 1px solid #2d3e4e;
+}
+
+body.admin-theme .navbar h2 {
+  color: #e6b422;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+body.admin-theme .nav-links a {
+  color: #9aabb8;
+  font-weight: 500;
+}
+
+body.admin-theme .nav-links a:hover,
+body.admin-theme .nav-links a.router-link-active {
+  color: #e6b422;
+}
+
+body.admin-theme .book-card,
+body.admin-theme .borrow-card {
+  background: #1f2e3c;
+  border-radius: 12px;
+  border: 1px solid #2d3e4e;
+  transition: all 0.2s ease;
+}
+
+body.admin-theme .book-card:hover,
+body.admin-theme .borrow-card:hover {
+  border-color: #e6b422;
+  transform: translateY(-2px);
+}
+
+body.admin-theme button {
+  background: #2d3e4e;
+  border: none;
+  color: #e8eef2;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.admin-theme button:hover {
+  background: #e6b422;
+  color: #1a2634;
+}
+
+body.admin-theme .add-btn {
+  background: #e6b422;
+  color: #1a2634;
+}
+
+body.admin-theme table {
+  background: #1f2e3c;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+body.admin-theme th {
+  background: #2d3e4e;
+  color: #e6b422;
+  font-weight: 600;
+  padding: 12px 16px;
+}
+
+body.admin-theme td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #2d3e4e;
+}
+
+body.admin-theme .stat-card {
+  background: #1f2e3c;
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  border: 1px solid #2d3e4e;
+}
+
+body.admin-theme .stat-card h3 {
+  color: #e6b422;
+  font-size: 32px;
+}
+
+body.admin-theme .chart-container {
+  background: #1f2e3c;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #2d3e4e;
+}

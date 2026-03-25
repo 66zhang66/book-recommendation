@@ -1,0 +1,102 @@
+/* 用户端 - 小清新风格 */
+body.user-theme {
+  background: #f0f7f0;
+  color: #2c5a2e;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+body.user-theme .navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #d4e8d4;
+  box-shadow: 0 2px 12px rgba(100, 120, 100, 0.05);
+}
+
+body.user-theme .navbar h2 {
+  color: #5a9e5e;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+body.user-theme .nav-links a {
+  color: #6b8c6e;
+  font-weight: 500;
+}
+
+body.user-theme .nav-links a:hover,
+body.user-theme .nav-links a.router-link-active {
+  color: #5a9e5e;
+  border-bottom: 2px solid #5a9e5e;
+}
+
+body.user-theme .book-card,
+body.user-theme .reading-card,
+body.user-theme .borrow-card {
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e2f0e2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+}
+
+body.user-theme .book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(90, 158, 94, 0.1);
+  border-color: #c8e0c8;
+}
+
+body.user-theme button {
+  background: #5a9e5e;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+body.user-theme button:hover {
+  background: #488a4c;
+  transform: scale(0.98);
+}
+
+body.user-theme .add-btn {
+  background: #5a9e5e;
+  box-shadow: 0 2px 8px rgba(90, 158, 94, 0.2);
+}
+
+body.user-theme .welcome-card {
+  background: linear-gradient(135deg, #e8f5e8 0%, #ffffff 100%);
+  border-radius: 28px;
+  padding: 40px;
+  border: 1px solid #d4e8d4;
+}
+
+body.user-theme .welcome-card h1 {
+  color: #2c5a2e;
+  font-size: 2rem;
+}
+
+body.user-theme .progress-bar {
+  background: #e8f0e8;
+  border-radius: 10px;
+}
+
+body.user-theme .progress-fill {
+  background: #5a9e5e;
+  border-radius: 10px;
+}
+
+body.user-theme .stat-card {
+  background: white;
+  border-radius: 20px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+body.user-theme .stat-card h3 {
+  color: #5a9e5e;
+  font-size: 28px;
+}
